@@ -48,6 +48,13 @@ VSCode setting.json
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
   },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "dotenv": false
+  },
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true
 }

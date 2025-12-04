@@ -4,9 +4,9 @@
 - Fork this repo & clone it to start your fullstack application development
 - References folder contain completed demo application
 
-#### Setup Development Environment
+#### 1. Setup Development Environment
 
-Windows
+##### 1.1 Windows
 
 - VSCode https://code.visualstudio.com/
 - NodeJS https://nodejs.org/en
@@ -15,27 +15,27 @@ Windows
 - Scoop https://github.com/ScoopInstaller/Install#readme
 - Lazygit https://github.com/jesseduffield/lazygit#scoop-windows
 
-MacOS
+##### 1.2 MacOS
 
 - VSCode https://code.visualstudio.com/
 - Homebrew https://brew.sh/
-- NodeJS `brew install node@20`
+- NodeJS `brew install node@24`
 - Git `brew install git`
 - Lazygit https://github.com/jesseduffield/lazygit#homebrew
 
-Git Configuration
+#### 2. Git Configuration
 
 - `git config --global user.name "YOUR NAME HERE"`
 - `git config --global user.email "your@email.here"`
 
-VSCode Extensions
+#### 3. VSCode Extensions
 
 - Auto Rename Tag by Jun Han
 - DotENV by mikestead
 - Prettier - Code formatter by Prettier
 - Tailwind CSS IntelliSense by Tailwind Labs
 
-VSCode setting.json
+#### 4. VSCode setting.json
 
 ```json
 {
@@ -62,8 +62,7 @@ VSCode setting.json
 
 #### Setup MongoDB database
 
-- Create Account https://mongodb-developer.github.io/intro-lab/docs/mongodb-atlas/create-account
-- Deploy a Database Cluster https://mongodb-developer.github.io/intro-lab/docs/mongodb-atlas/create-cluster
+- https://www.mongodb.com/docs/atlas/getting-started/ - Follow under tab “Atlas UI” step 1 to 4 only
 - Connect database with MongoDB Compass
 
 ---
